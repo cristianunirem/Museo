@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.fcabecera {
+    background-color: #2eb82e;
+    width: 100%;
+    height: auto;
+}
+
+
+.fcabecera2 {
+    background-image: url('../IMG/separacion.webp');
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fcab1 {
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.fcab2 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+.saludo2 {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+h2 {
+    font-weight: bold;
+    color: #fc0000;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fc0000;
+    text-align: center;
+}
+
+.style1 {
+    color: #fcfcfc;
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+  
+.imgb {
+    width: 100%;
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
+
+.sec1 {
+    width: 100%;
+    height: auto;
+    background-image: url('../IMG/Ina1.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.alignconent1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desal {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.desa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 {
+    background-image: url('../IMG/carru2.webp');
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+}
+
+.imga {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 600px;
+}
+
+.imgc {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
