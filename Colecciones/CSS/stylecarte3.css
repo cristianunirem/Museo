@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.fcabecera {
+    background-color: #2eb82e;
+    width: 100%;
+    height: auto;
+}
+
+.fcabecera2 {
+    background-image: url('../IMG/separacion1.webp');
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fcab1 {
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.fcab2 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+h2 {
+    color: #fc0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    color: #0000ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fc0000;
+    text-align: center;
+}
+
+.aligntext {
+    text-align: justify;
+}
+
+.aligntext1 {
+    text-align: center;
+}
+
+.style1 {
+    color: #fcfcfc;
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+  
+.imgb {
+    width: 100%;
+}
+
+.ffondo {
+    position: absolute;
+    white-space: nowrap;
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
+
+.indexcontenido {
+    width: 100%;
+    height: auto;
+}
+
+.introrec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectexto1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+}
+
+.desa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imga {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.desa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartacontenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartacontenido2 {
+    width: 100%;
+    height: auto;
+}
