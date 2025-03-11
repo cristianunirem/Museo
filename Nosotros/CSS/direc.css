@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.fcabecera {
+    background-color: #2eb82e;
+    width: 100%;
+    height: auto;
+}
+
+.fcab1 {
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.fcab2 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+h2 {
+    color: #fc0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fc0000;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+    color: #fc0000;
+    text-align: center;
+}
+
+.aligntext {
+    text-align: justify;
+}
+
+.aligntext1 {
+    text-align: center;
+}
+
+.aligntext2 {
+    text-align: left;
+}
+
+.style1 {
+    color: #fcfcfc;
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+ 
+.imgb {
+    width: 100%;
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+}
+
+.desa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introrec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imga {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.imgc {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    max-height: 950px;
+}
