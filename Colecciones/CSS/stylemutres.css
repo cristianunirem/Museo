@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.fcabecera {
+    background-color: #2eb82e;
+    width: 100%;
+    height: auto;
+}
+
+.fcabecera2 {
+    background-image: url('../IMG/separacion1.webp');
+    width: auto;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fcab1 {
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.fcab2 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+h2 {
+    color: #fc0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5 {
+    color: #0000ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fc0000;
+    text-align: center;
+}
+
+.aligntext {
+    text-align: justify;
+}
+
+.aligntext1 {
+    text-align: center;
+}
+
+.style1 {
+    color: #fcfcfc;
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+  
+.imgb {
+    width: 100%;
+}
+
+.introrec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imga {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
+    max-height: 900px;
+}
+
+.desa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+}
+
+.fondo2 {
+    background-image: url('../IMG/fondomural.webp');
+    width: 1000px;
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fondo3 {
+    background-image: url('../IMG/mutres_tres.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    max-width: 800px;
+    max-height: 800px;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .prueba3 {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .prueba3 {
+        width: 40vw; 
+        height: 40vw; 
+    }
+}
+
+.indexcontenido {
+    width: 100%;
+    height: auto;
+}
+
+.cartacontenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartacontenido2 {
+    width: 100%;
+    height: auto;
+}
