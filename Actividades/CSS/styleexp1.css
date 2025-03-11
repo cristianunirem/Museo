@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.fcabecera {
+    background-color: #2eb82e;
+    width: 100%;
+    height: auto;
+}
+
+.fcab1 {
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.fcab2 {
+    color: #ff0000;
+    Font-Weight:Bold;
+}
+
+h2 {
+    color: #fc0000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tituloh5 {
+    color: #0000ff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aligntext {
+    text-align: justify;
+}
+
+.estilo1 {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.saludo2 {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.style1 {
+    color: #fcfcfc;
+    Font-Weight:Bold;
+    transition: color .3s ease-in-out;
+    &::before {
+        transition: transform .3s ease-in-out;
+    }
+    &:hover {
+        color: #fc0000;
+    } 
+}
+
+.banner {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+  
+.imgb {
+    width: 100%;
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+}
+
+.portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 650px;
+}
+
+.desa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuseparacion {
+    width: 100%;
+    height: auto;
+}
